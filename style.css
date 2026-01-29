@@ -479,6 +479,37 @@ html{
   color:#a1a1a1;
 }
 
+/* ===============================
+   MOBILE: BUILD LOGS
+================================ */
+
+@media (max-width: 520px){
+
+  .log-line{
+    font-size:12px;
+  }
+
+  .log-time{
+    font-size:11px;
+  }
+
+  .log-msg{
+    font-size:12px;
+  }
+
+  .log-lines{
+    gap:6px;
+  }
+  
+
+}
+
+@media (max-width: 520px){
+  .log-line{
+    line-height:1.3;
+  }
+}
+
 
 
 /* ===============================
