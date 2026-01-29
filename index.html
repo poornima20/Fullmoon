@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fullmoon</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- NAV -->
+<nav class="top-nav">
+  <div class="nav-inner">
+
+    <div class="nav-left">
+      <a href="#footer">Connect</a>
+      <a href="#proj">Projects</a>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="nav-right">
+      <span class="cmd"><i data-lucide="package"></i></span>      
+    </button>
+
+  </div>
+</nav>
+
+
+
+
+
+  <!-- HERO -->
+  <div class="hero">
+
+  <p class="hero-text">
+    <a href="mailto:poornima20suresh@gmail.com" class="say-hello">I</a> build things on the internet for people on the internet.
+    
+  </p>
+
+  <img 
+    src="me.png"
+    alt="Person building software"
+    class="hero-image"
+  />
+
+</div>
+
+
+  <!-- INTRO TITLE -->
+  <div class="section-title">
+    <span>INTRODUCTION</span>
+    <div class="line"></div>
+  </div>
+
+  <!-- COMMAND PALETTE -->
+<div class="command-overlay" id="commandOverlay">
+
+  <div class="command-box">
+
+    <!-- Search -->
+    <div class="command-search">
+      <i data-lucide="search"></i>
+      <input type="text" id="cmdSearch" placeholder="Type a command or search..." />
+
+      <button class="close-btn" id="closeCmd">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <!-- Content -->
+    <div class="command-content">
+
+     <div class="command-content">
+
+  <div class="cmd-section">
+    <div class="cmd-title">Projects</div>
+
+    <a href="https://poornima20.github.io/DataTab-LandingPage/"
+       target="_blank" rel="noopener"
+       class="cmd-item">
+
+      <i data-lucide="file-text"></i>
+      <span>TodoTab</span>
+    </a>
+
+    <a href="https://poornima20.github.io/DataTab---Pocket-Planner-/"
+       target="_blank" rel="noopener"
+       class="cmd-item">
+
+      <i data-lucide="wallet"></i>
+      <span>Pocket Planner</span>
+    </a>
+
+    <a href="https://datatab-backtrackdsa.onrender.com/"
+       target="_blank" rel="noopener"
+       class="cmd-item">
+
+      <i data-lucide="blocks"></i>
+      <span>BackTrackDSA</span>
+    </a>
+  </div>
+
+  <div class="cmd-section">
+    <div class="cmd-title">Other Projects</div>
+
+    <a href="https://poornima20.github.io/ExpenseResolve/"
+       target="_blank" rel="noopener"
+       class="cmd-item">
+
+      <i data-lucide="wallet-cards"></i>
+      <span>ExpenseResolve</span>
+    </a>
+
+    <a href="#"
+       class="cmd-item">
+
+      <i data-lucide="layout-dashboard"></i>
+      <span>Ops Dashboard <span style="font-size: 8px; font-style: italic; padding-left: 3px;"> In Progress</span></span>
+    </a>
+
+  </div>
+
+</div>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+  <!-- CARD -->
+  <div class="card">
+
+    <div class="card-top">
+      <div class="updated">
+        <i id="learningIcon" data-lucide="book"></i>
+        <span>Always learning & Exploring</span>
+        </div>
+
+
+      <button class="profile-chip" id="buildLogBtn">
+        <i data-lucide="cog"></i> Build Log  </button>
+
+    </div>
+
+    <p>Hey, I'm <a href="mailto:poornima20suresh@gmail.com" class="name-link">Fullmoon</a>.</p>
+
+<p class="soft-intro">
+  I love software, I love being organized, and I like mixing the two to build little things that make life more productive.
+</p>
+
+
+      <div class="log-lines" id="logLines"></div>
+
+
+  </div>
+
+  <!-- FOOT NOTE -->
+  <div class="note">
+    A little more about what i do in  
+    <a href="https://drive.google.com/file/d/1JxaFGtouRpIiidw5VsAFRMNsOrG-DqEn/view?usp=sharing" target="_blank">here</a>.
+  </div>
+
+<!-- PROJECTS -->
+<section class="list-section">
+
+  <div class="section-title">
+    <span id="proj">PROJECTS</span>
+    <div class="line"></div>
+  </div>
+
+  <div class="list">
+
+    <a href="https://poornima20.github.io/DataTab-LandingPage/" target="_blank" class="list-item">
+      <span class="project-left"><i data-lucide="notepad-text" class="project-icon"></i>TodoTab - Task & Focus Manager</span>
+      <i data-lucide="chevron-right" class="arrow"></i>
+    </a>
+
+   <a href="https://poornima20.github.io/DataTab---Pocket-Planner-/" target="_blank" class="list-item">
+      <span class="project-left"><i data-lucide="book-user" class="project-icon"></i>Pocket Planner - Modular Planning System</span>
+      <i data-lucide="chevron-right" class="arrow"></i>
+    </a>
+
+    <a href="https://datatab-backtrackdsa.onrender.com/" target="_blank" class="list-item">
+      <span class="project-left"><i data-lucide="layers" class="project-icon"></i>BackTrackDSA - DSA Simplifier</span>
+      <i data-lucide="chevron-right" class="arrow"></i>
+    </a>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+
+  <div class="footer-links">
+    <a href="https://github.com/poornima20" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/poornima-suresh-37a927214/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+
+  <div class="copyright">
+    © 2026 <a href="mailto:poornima20suresh@gmail.com" class="name-link">Fullmoon</a>
+  </div>
+
+</footer>
+
+</div>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="script.js"></script>
+</body>
+</html>
